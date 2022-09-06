@@ -1,0 +1,28 @@
+body 
+{
+    color: beige;
+    background-color: gray;
+    font-family: 'Inter', sans-serif;
+}
+header
+{
+    text-align: center;
+}
+footer
+{
+    text-align: center;
+}
+h1
+{}
+h2
+{
+    text-align: center;
+}
+figure
+{}
+main{
+    border: 2px solid rgb(35, 50, 90);
+    margin: 50px;
+    padding: 30px;
+    padding-top: 10px;
+}
