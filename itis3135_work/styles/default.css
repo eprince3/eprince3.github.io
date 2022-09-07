@@ -33,7 +33,15 @@ main{
     margin: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(58, 17, 63);
+    background-color: rgb(75, 24, 82);
+}
+#nav_bot_ul
+{
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38, 5, 41);
 }
 #nav_li
 {
