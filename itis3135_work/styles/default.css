@@ -1,28 +1,52 @@
 body 
 {
-    color: beige;
-    background-color: gray;
+    color: rgb(0, 0, 0);
+    background-color: rgb(183, 201, 173);
     font-family: 'Inter', sans-serif;
+    margin-top: 50px;
 }
 header
 {
     text-align: center;
+    color: rgb(61, 29, 11);
 }
 footer
 {
     text-align: center;
 }
-h1
-{}
 h2
 {
     text-align: center;
 }
-figure
-{}
 main{
-    border: 2px solid rgb(35, 50, 90);
+    border: 2px solid rgb(58, 17, 63);
     margin: 50px;
     padding: 30px;
     padding-top: 10px;
+}
+
+/*Nav Menu*/
+#nav_ul
+{
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(58, 17, 63);
+}
+#nav_li
+{
+    float: left;
+}
+#nav_li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav_li a:hover
+{
+    background-color: rgb(58, 74, 99);
 }
