@@ -18,11 +18,16 @@ h2
 {
     text-align: center;
 }
-main{
+main
+{
     border: 2px solid rgb(58, 17, 63);
     margin: 50px;
     padding: 30px;
     padding-top: 10px;
+}
+table, th, td
+{
+    border: 1px solid rgb(58, 17, 63);
 }
 
 /*Nav Menu*/
