@@ -30,15 +30,15 @@
             <h1>
                 <b><center>Forms</center></b>
             </h1>
-            <form>
+            <form action = "#">
                 <label for "fname">First Name:</label><br>
-                <input type = "text" id = "fname"><br><br>
+                <input type = "text" id = "fname" required><br><br>
                 <label for "fname">Last Name:</label><br>
-                <input type = "text" id = "lname"><br><br>
+                <input type = "text" id = "lname" required><br><br>
                 <label for "pnum">Phone Number:</label><br>
-                <input type = "text" id = "pnum"><br><br>
+                <input type = "number" id = "pnum" size = "10" max = "10" required placeholder = "999-888-7777"><br><br>
                 <label for "email">Email:</label><br>
-                <input type = "text" id = "email"><br><br>
+                <input type = "email" id = "email" required><br><br>
                 <label><b>How would you like to be contacted?</b></label><br>
                 <input type = "checkbox" id = "phone" name = "conmeth" value = "Phone">
                 <label for "phone">Phone</label><br>
@@ -53,7 +53,18 @@
                 <label for "other">Other</label><br>
                 <input type = "radio" id = "prefnot" name = "gender" value = "Prefer Not to Say">
                 <label for "prefnot">Prefer Not to Say</label><br><br>
-
+                <label><b>Favorite Color:</b></label><br>
+                <select name="color" id="color">
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="brown">Brown</option>
+                    <option value="purple">Purple</option>
+                    <option value="pink">Pink</option>
+                    <option value="other">Other</option>
+                </select><br><br>
                 <input type = "submit" value = "Submit">
                 <input type = "reset" value = "Reset">
             </form>
