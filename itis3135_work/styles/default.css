@@ -81,3 +81,19 @@ tr:nth-child(odd)
 {
     background-color: rgb(58, 74, 99);
 }
+.nav_bottom_ul li
+{
+    float: left;
+}
+.nav_bottom_ul li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav_bottom_ul li a:hover
+{
+    background-color: rgb(58, 74, 99);
+}
