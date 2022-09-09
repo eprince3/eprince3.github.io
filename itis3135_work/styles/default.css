@@ -25,6 +25,18 @@ main{
     padding: 30px;
     padding-top: 10px;
 }
+table, th, td 
+{
+    border: 1px solid rgb(58, 17, 63);
+}
+th:nth-child("Even")
+{
+    background-color: rgb(217, 186, 145);
+}
+th:nth-child("Odd")
+{
+    background-color: rgb(161, 127, 82);
+}
 .button {
   background-color: #1c2536;
   border: none;
