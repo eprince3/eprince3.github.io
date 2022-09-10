@@ -57,6 +57,7 @@ tr:nth-child(odd)
 }
 
 /*Nav Menu*/
+/*
 .nav_ul
 {
     list-style-type: none;
@@ -102,6 +103,41 @@ tr:nth-child(odd)
     text-decoration: none;
 }
 .nav_bottom_ul li a:hover
+{
+    background-color: rgb(58, 74, 99);
+}
+*/
+
+/*Nav Menu*/
+header nav
+{
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(75, 24, 82);
+}
+footer nav
+{
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38, 5, 41);
+}
+nav li
+{
+    float: left;
+}
+nav li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover
 {
     background-color: rgb(58, 74, 99);
 }
