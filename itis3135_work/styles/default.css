@@ -109,7 +109,7 @@ tr:nth-child(odd)
 */
 
 /*Nav Menu*/
-header nav
+header nav ul
 {
     list-style-type: none;
     margin: 50px;
@@ -117,7 +117,7 @@ header nav
     overflow: hidden;
     background-color: rgb(75, 24, 82);
 }
-footer nav
+footer nav ul
 {
     list-style-type: none;
     margin: 50px;
