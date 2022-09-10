@@ -1,14 +1,14 @@
 body 
 {
-    color: rgb(0, 0, 0);
-    background-color: rgb(183, 201, 173);
+    color: #EDF7D2;
+    background-color: #3E4E50;
     font-family: 'Inter', sans-serif;
     margin-top: 50px;
 }
 header
 {
     text-align: center;
-    color: rgb(61, 29, 11);
+    color: #C9C19F;
 }
 footer
 {
@@ -28,7 +28,7 @@ main h1
     font-family: 'Playfair Display', serif;
 }
 main{
-    border: 2px solid rgb(58, 17, 63);
+    border: 2px solid #A7A5C6;
     margin: 50px;
     padding: 30px;
     padding-top: 10px;
@@ -63,7 +63,7 @@ header nav ul
     margin: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(75, 24, 82);
+    background-color: #8797B2;
 }
 footer nav ul
 {
@@ -71,7 +71,7 @@ footer nav ul
     margin: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(38, 5, 41);
+    background-color: #8797B2;
 }
 nav ul li
 {
