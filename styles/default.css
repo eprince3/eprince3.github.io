@@ -14,37 +14,70 @@ footer
 {
     text-align: center;
 }
-h2
+footer a
+{
+    text-decoration: none;
+}
+header a
+{
+    text-decoration: none;
+}
+main h1
 {
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
-main
-{
+main{
     border: 2px solid rgb(58, 17, 63);
     margin: 50px;
     padding: 30px;
     padding-top: 10px;
 }
-table, th, td
+table, th, td 
 {
     border: 1px solid rgb(58, 17, 63);
     border-collapse: collapse;
 }
+th
+{
+    background-color: rgb(156, 105, 39);
+}
+tr:nth-child(even)
+{
+    background-color: rgb(217, 186, 145);
+}
+tr:nth-child(odd)
+{
+    background-color: rgb(161, 127, 82);
+}
+.button
+{
+    background-color: aquamarine;
+    color:rgb(38, 5, 41);
+}
 
 /*Nav Menu*/
-#nav_ul
+header nav ul
 {
     list-style-type: none;
     margin: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(58, 17, 63);
+    background-color: rgb(75, 24, 82);
 }
-#nav_li
+footer nav ul
+{
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38, 5, 41);
+}
+nav ul li
 {
     float: left;
 }
-#nav_li a
+nav ul li a
 {
     display: block;
     color: white;
@@ -52,7 +85,7 @@ table, th, td
     padding: 14px 16px;
     text-decoration: none;
 }
-#nav_li a:hover
+nav ul li a:hover
 {
     background-color: rgb(58, 74, 99);
 }

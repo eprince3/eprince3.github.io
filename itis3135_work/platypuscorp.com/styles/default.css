@@ -57,7 +57,7 @@ tr:nth-child(odd)
 }
 
 /*Nav Menu*/
-.nav_ul
+header nav ul
 {
     list-style-type: none;
     margin: 50px;
@@ -65,7 +65,7 @@ tr:nth-child(odd)
     overflow: hidden;
     background-color: rgb(75, 24, 82);
 }
-.nav_bottom_ul
+footer nav ul
 {
     list-style-type: none;
     margin: 50px;
@@ -73,11 +73,11 @@ tr:nth-child(odd)
     overflow: hidden;
     background-color: rgb(38, 5, 41);
 }
-.nav_ul li
+nav ul li
 {
     float: left;
 }
-.nav_ul li a
+nav ul li a
 {
     display: block;
     color: white;
@@ -85,23 +85,7 @@ tr:nth-child(odd)
     padding: 14px 16px;
     text-decoration: none;
 }
-.nav_ul li a:hover
-{
-    background-color: rgb(58, 74, 99);
-}
-.nav_bottom_ul li
-{
-    float: left;
-}
-.nav_bottom_ul li a
-{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.nav_bottom_ul li a:hover
+nav ul li a:hover
 {
     background-color: rgb(58, 74, 99);
 }
