@@ -32,6 +32,8 @@ main{
     margin: 50px;
     padding: 30px;
     padding-top: 10px;
+    background-color: #746D75;
+    color: #F2E9DC;
 }
 table, th, td 
 {
@@ -78,6 +80,7 @@ footer nav ul
 nav ul li
 {
     float: left;
+    border-right: 2px solid #0A0908;
 }
 nav ul li a
 {
