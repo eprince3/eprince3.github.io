@@ -1,7 +1,7 @@
 body 
 {
     color: #0A0908;
-    background-color: #F2E9DC;
+    background-color: #F7F0F5;
     font-family: 'Open Sans', sans-serif;
     margin-top: 50px;
 }
@@ -32,8 +32,8 @@ main{
     margin: 50px;
     padding: 30px;
     padding-top: 10px;
-    background-color: #746D75;
-    color: #F2E9DC;
+    background-color: #2c4b5e;
+    color: #F7F0F5;
 }
 table, th, td 
 {
@@ -65,7 +65,7 @@ header nav ul
     margin: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: #C36F09;
+    background-color: #8A7090;
     border: 2px solid #0A0908;
 }
 footer nav ul
@@ -74,7 +74,7 @@ footer nav ul
     margin: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: #A63C06;
+    background-color: #8D3B72;
     border: 2px solid #0A0908;
 }
 nav ul li
