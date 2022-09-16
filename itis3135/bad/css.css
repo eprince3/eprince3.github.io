@@ -9,15 +9,10 @@ h2{
     font-family: "Comic Sans MS", fantasy;
 }
 main{
-    border: 2px solid #0A0908;
+    border: 10px solid green;
     margin: 50px;
-    padding: 30px;
-    padding-top: 10px;
     background-color: black;
     color: white;
-}
-footer{
-    font-family: "Times New Roman", Serif;
 }
 
 /*Nav Menu*/
