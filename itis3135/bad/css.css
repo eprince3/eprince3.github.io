@@ -16,27 +16,8 @@ main{
     background-color: #746D75;
     color: #F2E9DC;
 }
-table, th, td 
-{
-    border: 1px solid rgb(58, 17, 63);
-    border-collapse: collapse;
-}
-th
-{
-    background-color: rgb(156, 105, 39);
-}
-tr:nth-child(even)
-{
-    background-color: rgb(217, 186, 145);
-}
-tr:nth-child(odd)
-{
-    background-color: rgb(161, 127, 82);
-}
-.button
-{
-    background-color: aquamarine;
-    color:rgb(38, 5, 41);
+footer{
+    font-family: "Times New Roman", Serif;
 }
 
 /*Nav Menu*/
