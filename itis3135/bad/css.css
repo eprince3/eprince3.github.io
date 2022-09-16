@@ -5,26 +5,8 @@ body
     font-family: papyrus, fantasy;
     margin-top: 50px;
 }
-header
-{
-    text-align: center;
-    color: #0A0908;
-}
-footer
-{
-    text-align: center;
-}
-footer a
-{
-    text-decoration: none;
-}
-header a
-{
-    text-decoration: none;
-}
-main h1
-{
-    text-align: center;
+h1{
+    font-family: "Comic Sans MS", fantasy;
 }
 main{
     border: 2px solid #0A0908;
