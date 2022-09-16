@@ -9,7 +9,10 @@ h2{
     font-family: "Comic Sans MS", fantasy;
 }
 main{
-    border: 10px solid green;
+    border-top: 10px solid green;
+    border-left: 20px solid yellow;
+    border-right: 30px solid purple;
+    border-bottom: 40px solid red;
     margin-left: 50px;
     margin-left: 100px;
     background-color: black;
