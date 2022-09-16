@@ -1,7 +1,7 @@
 body 
 {
-    color: #0A0908;
-    background-color: #F2E9DC;
+    color: black;
+    background-color: white;
     font-family: Papyrus, fantasy;
     margin-top: 50px;
 }
@@ -13,8 +13,8 @@ main{
     margin: 50px;
     padding: 30px;
     padding-top: 10px;
-    background-color: #746D75;
-    color: #F2E9DC;
+    background-color: black;
+    color: white;
 }
 footer{
     font-family: "Times New Roman", Serif;
