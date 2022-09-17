@@ -30,8 +30,9 @@ main h2
 main{
     border: 2px solid #0A0908;
     margin: 50px;
-    padding: 30px;
-    padding-top: 10px;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #3A3E3B;
     color: #F7F0F5;
 }
