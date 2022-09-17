@@ -26,7 +26,7 @@ main h2
 {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 130%;
+    font-size: 1.3em;
 }
 main{
     border: 2px solid #0A0908;
@@ -116,10 +116,10 @@ footer nav ul li a:hover
 /*Website Evaluation list*/
 .eval h3{
     padding-top: 50px;
-    font-size: 120%;
+    font-size: 1.2em;
 }
 .eval h4{
     padding-top: 10px;
-    font-size: 120%;
+    font-size: 1.2em;
 }
 
