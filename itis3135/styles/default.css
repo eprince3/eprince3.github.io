@@ -38,10 +38,12 @@ main{
 a:link
 {
     text-decoration: none;
+    color: #9E829C;
 }
 a:visited
 {
     text-decoration: none;
+    color: #291528;
 }
 
 /*Table Styling*/
