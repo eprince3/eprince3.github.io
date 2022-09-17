@@ -32,12 +32,12 @@ main h2
     font-family: 'Playfair Display', serif;
     font-size: 1.8em;
 }
-a:link
+main a:link
 {
     text-decoration: none;
     color: #9E829C;
 }
-a:visited
+main a:visited
 {
     text-decoration: none;
     color: #291528;
