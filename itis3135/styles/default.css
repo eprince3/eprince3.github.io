@@ -1,17 +1,14 @@
-header
-{
+header{
     text-align: center;
     color: #0A0908;
 }
-header a
-{
+header a{
     text-decoration: none;
 }
 h1{
     font-size: 2.15em;
 }
-body 
-{
+body {
     color: #0A0908;
     background-color: #F7F0F5;
     font-family: 'Open Sans', sans-serif;
@@ -26,20 +23,17 @@ main{
     background-color: #3A3E3B;
     color: #F7F0F5;
 }
-main h2
-{
+main h2{
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 1.8em;
     padding-bottom: 10px;
 }
-main a:link
-{
+main a:link{
     text-decoration: none;
     color: #9E829C;
 }
-main a:visited
-{
+main a:visited{
     text-decoration: none;
     color: #291528;
 }
@@ -48,42 +42,34 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-footer
-{
+footer{
     text-align: center;
 }
-footer a
-{
+footer a{
     text-decoration: none;
 }
 
 /*Table Styling*/
-table, th, td 
-{
+table, th, td {
     border: 1px solid rgb(58, 17, 63);
     border-collapse: collapse;
 }
-th
-{
+th{
     background-color: rgb(156, 105, 39);
 }
-tr:nth-child(even)
-{
+tr:nth-child(even){
     background-color: rgb(217, 186, 145);
 }
-tr:nth-child(odd)
-{
+tr:nth-child(odd){
     background-color: rgb(161, 127, 82);
 }
-.button
-{
+.button{
     background-color: aquamarine;
     color:rgb(38, 5, 41);
 }
 
 /*Nav Menu*/
-header nav ul
-{
+header nav ul{
     list-style-type: none;
     margin: 50px;
     padding: 0;
@@ -91,8 +77,7 @@ header nav ul
     background-color: #8A7090;
     border: 2px solid #0A0908;
 }
-footer nav ul
-{
+footer nav ul{
     list-style-type: none;
     margin: 50px;
     padding: 0;
@@ -100,25 +85,21 @@ footer nav ul
     background-color: #8D3B72;
     border: 2px solid #0A0908;
 }
-nav ul li
-{
+nav ul li{
     float: left;
     border-right: 2px solid #0A0908;
 }
-nav ul li a
-{
+nav ul li a{
     display: block;
     color: #F7F0F5;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-header nav ul li a:hover
-{
+header nav ul li a:hover{
     background-color: #5a475e;
 }
-footer nav ul li a:hover
-{
+footer nav ul li a:hover{
     background-color: #985381;
 }
 
