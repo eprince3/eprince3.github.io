@@ -43,6 +43,11 @@ main a:visited
     text-decoration: none;
     color: #291528;
 }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 footer
 {
     text-align: center;
