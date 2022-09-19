@@ -28,6 +28,7 @@ main h2{
     font-family: 'Playfair Display', serif;
     font-size: 1.8em;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 main a:link{
     text-decoration: none;
