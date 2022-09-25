@@ -85,8 +85,6 @@ tr:nth-child(odd){
 }
 .button:hover{
     background-color: #F7F0F5;
-    border: solid 5px;
-    border-color: #AD8350;
 }
 
 /*Nav Menu*/
