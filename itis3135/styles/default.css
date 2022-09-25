@@ -67,7 +67,7 @@ tr:nth-child(odd){
     background-color: rgb(161, 127, 82);
 }
 .button{
-    background-color: #87C38F;
+    background-color: #AD8350;
     border: none;
     color: #0A0908;
     padding: 15px 32px;
@@ -75,6 +75,7 @@ tr:nth-child(odd){
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 5%;
 }
 
 /*Nav Menu*/
