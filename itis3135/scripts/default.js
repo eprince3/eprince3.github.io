@@ -9,7 +9,7 @@ const month = ["January", "February", "March", "April", "May", "June", "July", "
 
 function displayDate(){
     document.getElementById("current_date").innerHTML = "Today is " + today.getTime() + " on " + weekdays[today.getDay()] +
-        ", " + today.getDate + " " + month[today.getDate()] + ", " + today.getFullYear;
+        ", " + today.getDate() + " " + month[today.getMonth()] + ", " + today.getFullYear();
 }
 
 //Generate response to user
