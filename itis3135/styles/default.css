@@ -45,9 +45,7 @@ main img{
     width: 25%;
     border-radius: 50%;
 }
-form{
-    padding-top: 20px;
-    padding-bottom: 40px;
+form label{
     line-height: 1.2em;
 }
 footer{
