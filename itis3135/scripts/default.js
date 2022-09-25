@@ -5,3 +5,13 @@ document.getElementById("validation_link_css").setAttribute("href", "https://jig
 function scriptTest(){
     alert("My script works.");
 }
+
+//Date and time
+let today = new Date();
+const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+function displayDate(){
+    document.getElementById("current_date").replaceWith("Today is " + today.getTime() + " on " + weekdays[today.getDay()] +
+        ", " + today.getDate) + " " + month[today.getDate()] + ", " + today.getFullYear;
+}
