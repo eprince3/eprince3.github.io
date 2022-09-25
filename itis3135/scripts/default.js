@@ -8,12 +8,12 @@ const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Satur
 const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 function displayDate(){
-    document.getElementById("current_date").replaceWith("Today is " + today.getTime() + " on " + weekdays[today.getDay()] +
-        ", " + today.getDate) + " " + month[today.getDate()] + ", " + today.getFullYear;
+    document.getElementById("current_date").innerHTML = "Today is " + today.getTime() + " on " + weekdays[today.getDay()] +
+        ", " + today.getDate + " " + month[today.getDate()] + ", " + today.getFullYear;
 }
 
 //Generate response to user
 function respond(){
-    document.getElementById("response").replaceWith("Platypus Corp welcomes you, " + document.getElementById("fullname") + 
-        "! We're glad you're doing " + document.getElementById("mood") + "!");
+    document.getElementById("response").innerHTML = "Platypus Corp welcomes you, " + document.getElementById("fullname") + 
+        "! We're glad you're doing " + document.getElementById("mood") + "!";
 }
