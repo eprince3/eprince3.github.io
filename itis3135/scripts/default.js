@@ -14,6 +14,6 @@ function displayDate(){
 
 //Generate response to user
 function respond(){
-    document.getElementById("response").innerHTML = "Platypus Corp welcomes you, " + document.getElementById("fullname") + 
-        "! We're glad you're doing " + document.getElementById("mood") + "!";
+    document.getElementById("response").innerHTML = "Platypus Corp welcomes you, " + document.getElementById("fullname").value + 
+        "! We're glad you're doing " + document.getElementById("mood").value + "!";
 }
