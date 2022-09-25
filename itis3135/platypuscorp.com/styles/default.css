@@ -16,7 +16,8 @@ header img{
     margin-right: auto;
     border-radius: 50%;
     vertical-align: middle;
-    height: fit-content;
+    height: 32px;
+    width: 32px;
 }
 footer
 {
