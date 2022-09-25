@@ -67,6 +67,8 @@ tr:nth-child(odd){
     background-color: rgb(161, 127, 82);
 }
 .button{
+    margin-top: 1em;
+    margin-bottom: 1em;
     background-color: #AD8350;
     border: none;
     color: #0A0908;
@@ -79,6 +81,8 @@ tr:nth-child(odd){
     transition-duration: 0.4s;
 }
 .button:hover{
+    margin-top: 1em;
+    margin-bottom: 1em;
     background-color: #F7F0F5;
     border: 5px;
     border-color: #AD8350;
