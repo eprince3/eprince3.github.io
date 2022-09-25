@@ -45,6 +45,11 @@ main img{
     width: 25%;
     border-radius: 50%;
 }
+form{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    line-height: 1.2em;
+}
 footer{
     text-align: center;
 }
