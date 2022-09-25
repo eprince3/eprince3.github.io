@@ -16,6 +16,7 @@ header img{
     margin-right: auto;
     border-radius: 50%;
     vertical-align: middle;
+    inline-size: auto;
 }
 footer
 {
