@@ -56,7 +56,6 @@ footer{
 footer a{
     text-decoration: none;
 }
-
 /*Table Styling*/
 table, th, td {
     border: 1px solid rgb(58, 17, 63);
@@ -71,6 +70,7 @@ tr:nth-child(even){
 tr:nth-child(odd){
     background-color: rgb(161, 127, 82);
 }
+/*Button Styling*/
 .button{
     margin-top: 1em;
     margin-bottom: 1em;
@@ -82,23 +82,13 @@ tr:nth-child(odd){
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 5%;
+    border-radius: 8%;
     transition-duration: 0.4s;
 }
 .button:hover{
-    margin-top: 1em;
-    margin-bottom: 1em;
     background-color: #F7F0F5;
-    border: 5px;
+    border: solid 5px;
     border-color: #AD8350;
-    color: #0A0908;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5%;
-    transition-duration: 0.4s;
 }
 
 /*Nav Menu*/
