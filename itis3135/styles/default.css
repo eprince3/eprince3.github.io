@@ -70,12 +70,12 @@ tr:nth-child(odd){
 }
 /*Button Styling*/
 .button{
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     background-color: #AD8350;
     border: none;
     color: #0A0908;
-    padding: 15px 32px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
