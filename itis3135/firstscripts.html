@@ -22,15 +22,30 @@
                     Today is NULL
                 </h3>
             </div>
-            <form>
-                <label for "fullname">What's your name?:</label>
-                <input type = "text" id = "fullname"><br>
-                <label for "fullname">How are you feeling?:</label>
-                <input type = "text" id = "mood"><br>
-                <input class = "button" type = "submit" onclick = "respond(); return false;">
-            </form>
+            <div>
+                <form>
+                    <label for "fullname">What's your name?:</label>
+                    <input type = "text" id = "fullname"><br>
+                    <label for "fullname">How are you feeling?:</label>
+                    <input type = "text" id = "mood"><br>
+                    <input class = "button" type = "submit" onclick = "respond(); return false;">
+                </form>
+            </div>
             <div>
                 <h3 id = "response">
+                    Waiting for input...
+                </h3>
+            </div>
+            <div>
+                <form>
+                    <label>Check the equivalency of 2 items:</label>
+                    <input type = "text" id = "item1"><br>                  
+                    <input type = "text" id = "item2"><br>
+                    <input class = "button" type = "submit" onclick = "eqCheck(); return false;">
+                </form>
+            </div>
+            <div>
+                <h3 id = "eqResponse">
                     Waiting for input...
                 </h3>
             </div>

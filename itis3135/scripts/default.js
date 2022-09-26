@@ -17,3 +17,16 @@ function respond(){
     document.getElementById("response").innerHTML = "Platypus Corp welcomes you, " + document.getElementById("fullname").value + 
         "! We're glad you're doing " + document.getElementById("mood").value + "!";
 }
+
+//Check the equivalency of 2 items
+function eqCheck(){
+    let i1 = document.getElementById("item1").value;
+    let i2 = document.getElementById("item2").value;
+
+    if (i1 === i2){
+        document.getElementById("eqResponse").innerHTML = "These are equivalent!";
+    }
+    else{
+        document.getElementById("eqResponse").innerHTML = "These are not equivalent!";
+    }
+}
