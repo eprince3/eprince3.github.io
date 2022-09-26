@@ -4,18 +4,13 @@
         <title>
             Ethan Prince's Eclectic Platypus | ITIS 3135 | Template
         </title>
-        <script src="scripts/default.js"></script>    
+        <div data-include="components/stylesheet.html"></div>
         <script>
             console.log("This is how you print to console. If you're seeing this on a finished webpage, tell Ethan to get his shit together and remove it.");
         </script>
     </head>
     <body>
-        <header>
-            <h1>
-                Ethan Prince's Eclectic Platypus | ITIS 3135
-            </h1>
-            <div data-include="./components/headernav.html"></div>
-        </header>
+        <div data-include="components/header.html"></div>
         <main>
             <h2>
                 PAGE TITLE
@@ -24,10 +19,8 @@
                 This is a template file.
             </p>
         </main>
-        <footer>
-            <div data-include="./components/footer.html"></div>
-        </footer>
-        <script src="scripts/include.js">
-        </script>
+        <div data-include="./components/footer.html"></div>
+        <script src="scripts/include.js"></script>
+        <script src="scripts/default.js"></script> 
     </body>
 </html>
