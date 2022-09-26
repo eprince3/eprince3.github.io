@@ -91,17 +91,17 @@ tr:nth-child(odd){
 /*Nav Menu*/
 header nav ul{
     list-style-type: none;
-    margin: 50px;
-    padding: 0;
+    margin: none;
+    padding: none;
+    width: 100%;
     overflow: hidden;
     background-color: #8A7090;
     border: 2px solid #0A0908;
 }
 footer nav ul{
     list-style-type: none;
-    margin: none;
-    padding: none;
-    width: 100%;
+    margin: 50px;
+    padding: 0;
     overflow: hidden;
     background-color: #8D3B72;
     border: 2px solid #0A0908;
