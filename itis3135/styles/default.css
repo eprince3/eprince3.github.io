@@ -72,8 +72,7 @@ tr:nth-child(odd){
 }
 /*Button Styling*/
 .button{
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin: 0.5em;
     background-color: #AD8350;
     border: none;
     color: #0A0908;
@@ -81,7 +80,7 @@ tr:nth-child(odd){
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 8%;
     transition-duration: 0.4s;
 }
