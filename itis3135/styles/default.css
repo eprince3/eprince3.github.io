@@ -74,10 +74,11 @@ tr:nth-child(odd){
 /*Button Styling*/
 .button{
     margin: 0.5em;
+    margin-left: none;
     background-color: #AD8350;
     border: none;
     color: #0A0908;
-    padding: 15px 20px;
+    padding: 5px 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
