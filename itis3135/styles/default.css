@@ -2,9 +2,11 @@ header{
     text-align: center;
     color: #0A0908;
     /* vv Turning header into banner vv */
+    /*
     margin: none;
     width: 100%;
     background-color: #AD8350;
+    */
 }
 header a{
     text-decoration: none;
@@ -92,7 +94,10 @@ tr:nth-child(odd){
 /*Nav Menu*/
 header nav ul{
     list-style-type: none;
+    /* working on banner
     margin: none;
+    */
+    margin: 50px;
     padding: none;
     width: 100%;
     overflow: hidden;
@@ -102,7 +107,7 @@ header nav ul{
 footer nav ul{
     list-style-type: none;
     margin: 50px;
-    padding: 0;
+    padding: none;
     overflow: hidden;
     background-color: #8D3B72;
     border: 2px solid #0A0908;
