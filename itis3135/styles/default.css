@@ -75,7 +75,7 @@ tr:nth-child(odd){
 }
 /*Button Styling*/
 .button{
-    margin: 0.5em 0 0.5em 0.5em;
+    margin: 0.5em 0.5em 0.5em 0em;
     background-color: #AD8350;
     border: none;
     color: #0A0908;
