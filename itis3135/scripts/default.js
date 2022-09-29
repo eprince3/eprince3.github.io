@@ -32,3 +32,24 @@ function eqCheck(){
         document.getElementById("eqResponse").innerHTML = "These are not equivalent!";
     }
 }
+
+//Multipy 2 numbers
+function multiplyNumbers(){
+    let n1 = document.getElementById("num1").value;
+    let n2 = document.getElementById("num2").value;
+    let product = n1 * n2;
+
+    document.getElementById("multiplyResponse").innerHTML = product;
+}
+
+//Check if number is even or odd
+function evenOrOdd(){
+    let evenOrOddNum = document.getElementById("evenOrOddNum").value;
+
+    if (evenOrOddNum % 2 == 0){
+        document.getElementById("evenOrOddResponse").innerHTML = "Even!";
+    }
+    else{
+        document.getElementById("evenOrOddResponse").innerHTML = "Odd!";
+    }
+}

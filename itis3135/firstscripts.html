@@ -25,12 +25,10 @@
                     <label for = "fullname">How are you feeling?:</label>
                     <input type = "text" id = "mood"><br>
                     <input class = "button" type = "submit" onclick = "respond(); return false;">
+                    <h3 id = "response">
+                        Waiting for input...
+                    </h3>
                 </form>
-            </div>
-            <div>
-                <h3 id = "response">
-                    Waiting for input...
-                </h3>
             </div>
             <div>
                 <form>
@@ -38,12 +36,31 @@
                     <input type = "text" id = "item1"><br>                  
                     <input type = "text" id = "item2"><br>
                     <input class = "button" type = "submit" onclick = "eqCheck(); return false;">
+                    <h3 id = "eqResponse">
+                        Waiting for input...
+                    </h3>
                 </form>
             </div>
             <div>
-                <h3 id = "eqResponse">
-                    Waiting for input...
-                </h3>
+                <form>
+                    <label>Multiply 2 numbers:</label><br>
+                    <input type = "text" id = "num1"><br>                  
+                    <input type = "text" id = "num2"><br>
+                    <input class = "button" type = "submit" onclick = "multiplyNumbers(); return false;">
+                    <h3 id = "multiplyResponse">
+                        Waiting for input...
+                    </h3>
+                </form>
+            </div>
+            <div>
+                <form>
+                    <label>Is your number even or odd:</label><br>
+                    <input type = "text" id = "evenOrOddNum"><br>                  
+                    <input class = "button" type = "submit" onclick = "evenOrOdd(); return false;">
+                    <h3 id = "evenOrOddResponse">
+                        Waiting for input...
+                    </h3>
+                </form>
             </div>
         </main>
         <div data-include="./components/footer.html"></div>
