@@ -50,8 +50,14 @@ main img{
     width: 25%;
     border-radius: 50%;
 }
+main div{
+    margin-bottom: 30px;
+}
 form label{
     line-height: 1.2em;
+}
+form h3{
+    margin-top: 10px;
 }
 footer{
     text-align: center;
@@ -96,10 +102,10 @@ header nav ul{
     list-style-type: none;
     /* working on banner
     margin: none;
+    width: 100%;
     */
     margin: 50px;
     padding: none;
-    width: 100%;
     overflow: hidden;
     background-color: #8A7090;
     border: 2px solid #0A0908;
