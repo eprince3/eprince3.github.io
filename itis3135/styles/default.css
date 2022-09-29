@@ -1,38 +1,51 @@
+/*Reset CSS margins*/
+*{
+    margin: 0;
+}
+
+/*Banner*/
 header{
     text-align: center;
-    color: #0A0908;
-    /* vv Turning header into banner vv */
-    /*
-    margin: none;
+    color: #F7F0F5;
+    margin: 0;
     width: 100%;
-    background-color: #AD8350;
-    */
+    background-color: #172626;
+    background-image: url("../images/pexels-pixabay-459277.jpg");
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 header a{
     text-decoration: none;
 }
 h1{
     font-size: 2.15em;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+/*Body and contents*/
 body {
     color: #0A0908;
-    background-color: #F7F0F5;
+    background-color: #121212;
     font-family: 'Open Sans', sans-serif;
 }
 main{
     border: 2px solid #0A0908;
+    border-radius: 10px;
     margin: 50px;
     padding: 50px;
     padding-top: 20px;
     padding-bottom: 40px;
-    background-color: #3A3E3B;
+    background-color: #292929;
     color: #F7F0F5;
 }
 main h2{
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 1.8em;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     font-weight: bold;
 }
 main a:link{
@@ -101,23 +114,25 @@ tr:nth-child(odd){
 /*Nav Menu*/
 header nav ul{
     list-style-type: none;
-    /* working on banner
-    margin: none;
+    box-sizing: border-box;
+    margin: 0;
     width: 100%;
-    */
-    margin: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: #8A7090;
-    border: 2px solid #0A0908;
+    background-color: #264040;
+    border-top: 2px solid #0A0908;
+    border-bottom: 2px solid #0A0908;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 footer nav ul{
     list-style-type: none;
     margin: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: #8D3B72;
+    background-color: #084949;
     border: 2px solid #0A0908;
+    border-radius: 10px;
 }
 nav ul li{
     float: left;
