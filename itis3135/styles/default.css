@@ -51,13 +51,13 @@ main img{
     border-radius: 50%;
 }
 main div{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 form label{
-    line-height: 1.2em;
+    margin-bottom:5px;
 }
 form h3{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 footer{
     text-align: center;
@@ -105,7 +105,7 @@ header nav ul{
     width: 100%;
     */
     margin: 50px;
-    padding: none;
+    padding: 0;
     overflow: hidden;
     background-color: #8A7090;
     border: 2px solid #0A0908;
@@ -113,7 +113,7 @@ header nav ul{
 footer nav ul{
     list-style-type: none;
     margin: 50px;
-    padding: none;
+    padding: 0;
     overflow: hidden;
     background-color: #8D3B72;
     border: 2px solid #0A0908;
