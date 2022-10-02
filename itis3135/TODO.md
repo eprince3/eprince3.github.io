@@ -1,5 +1,5 @@
 Revamp page header to touch screen edges
-Fix button sizing
+Fix button sizing (button class has weird edge issues)
 Clear html errors in tables.html
 Resize img on intro page
 Fix nav bar item 1
