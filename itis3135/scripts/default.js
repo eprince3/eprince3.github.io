@@ -59,17 +59,26 @@ const polygons = ["Henagon", "Digon", "Trigon", "Tetragon",
     "Pentagon", "Hexagon", "Heptagon", "Octagon", "Nonagon", "Decagon"];
 
 //Figure out polygon name
-function polyName(){
+function getShape(){
     let valid = false;
+    let sides = -1
 
-    while(!valid){
-        let sides = prompt("The Eclectic Platypus is curious how many sides your shape has.");
+    //loop until data is valid
+    while(validateEntry(sides) == false){
+        sides = prompt("The Eclectic Platypus is curious how many sides your shape has.");
         sides = Math.round(Math.abs(sides));
-
-        if(sides > 0 && sides <= 10){
-            valid = true;
-        }
     }
 
     alert("Your polygon is a " + polygons[sides - 1]);
+}
+
+//data validation
+function validateEntry(entry){
+    //data validation
+    if(entry > 0 && entry <= 10){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
