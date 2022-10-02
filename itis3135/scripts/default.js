@@ -56,5 +56,5 @@ function evenOrOdd(){
 
 //Figure out polygon name
 function polyName(){
-    let sides = prompt("How many sides does this polygon have?");
+    let sides = prompt("The Eclectic Platypus is curious how many sides your shape has.");
 }
