@@ -54,7 +54,21 @@ function evenOrOdd(){
     }
 }
 
+//polygons array
+const polygons = ["Henagon", "Digon", "Trigon", "Tetragon", 
+    "Pentagon", "Hexagon", "Heptagon", "Octagon", "Nonagon", "Decagon"];
+
 //Figure out polygon name
 function polyName(){
-    let sides = prompt("The Eclectic Platypus is curious how many sides your shape has.");
+    let valid = false;
+
+    while(!valid){
+        let sides = prompt("The Eclectic Platypus is curious how many sides your shape has.");
+
+        if(sides > 0 && sides <= 10){
+            valid = true;
+        }
+    }
+
+    alert("Your polygon is a " + polygons[sides - 1]);
 }
