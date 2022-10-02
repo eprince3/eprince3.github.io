@@ -92,6 +92,7 @@ main a:visited{
     color: #A68DB9;
 }
 
+/*Main*/
 main img{
     display: block;
     margin-left: auto;
@@ -140,7 +141,21 @@ tr:nth-child(even){
 tr:nth-child(odd){
     background-color: rgb(161, 127, 82);
 }
+
 /*Button Styling*/
+button{
+    margin: 0.5em 0.5em 0.5em 0em;
+    background-color: #AD8350;
+    border: none;
+    color: #0A0908;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8%;
+    transition-duration: 0.4s;
+}
 .button{
     margin: 0.5em 0.5em 0.5em 0em;
     background-color: #AD8350;
