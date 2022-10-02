@@ -67,9 +67,9 @@ function getShape(){
     while(validateEntry(sides) == false){
         sides = parseFloat(prompt("The Eclectic Platypus is curious how many sides your shape has.", "5"));
         sides = Math.round(Math.abs(sides));
-        alert('test');
     }
 
+    alert('test');
     alert("Your polygon is a " + polygons[sides - 1]);
 }
 
