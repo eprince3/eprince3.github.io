@@ -75,7 +75,7 @@ function getShape(){
 //data validation
 function validateEntry(entry){
     //data validation
-    if(entry > 0 && entry <= 10){
+    if(entry > 0 && entry <= 10 && !entry.isNaN()){
         return true;
     }
     else{
