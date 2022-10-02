@@ -53,3 +53,8 @@ function evenOrOdd(){
         document.getElementById("evenOrOddResponse").innerHTML = "Odd!";
     }
 }
+
+//Figure out polygon name
+function polyName(){
+    let sides = prompt("How many sides does this polygon have?");
+}
