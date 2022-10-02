@@ -60,7 +60,6 @@ const polygons = ["Henagon", "Digon", "Trigon", "Tetragon",
 
 //Figure out polygon name
 function getShape(){
-    let valid = false;
     let sides = -1
 
     //loop until data is valid
@@ -71,7 +70,6 @@ function getShape(){
 
     alert('test');
     alert("Your polygon is a " + polygons[sides - 1]);
-    return false;
 }
 
 //data validation
