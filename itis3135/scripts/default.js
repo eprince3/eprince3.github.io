@@ -71,6 +71,7 @@ function getShape(){
 
     alert('test');
     alert("Your polygon is a " + polygons[sides - 1]);
+    return false;
 }
 
 //data validation
