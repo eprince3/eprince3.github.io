@@ -65,7 +65,7 @@ function getShape(){
 
     //loop until data is valid
     while(validateEntry(sides) == false){
-        sides = prompt("The Eclectic Platypus is curious how many sides your shape has.");
+        sides = parseFloat(prompt("The Eclectic Platypus is curious how many sides your shape has.", "5"));
         sides = Math.round(Math.abs(sides));
     }
 
