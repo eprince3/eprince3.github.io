@@ -64,6 +64,7 @@ function polyName(){
 
     while(!valid){
         let sides = prompt("The Eclectic Platypus is curious how many sides your shape has.");
+        sides = Math.round(Math.abs(sides));
 
         if(sides > 0 && sides <= 10){
             valid = true;
