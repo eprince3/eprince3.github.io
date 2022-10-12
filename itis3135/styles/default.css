@@ -189,6 +189,7 @@ button:hover{
 /*Calculator Buttons*/
 .calc button{
     margin: 0.5em 0.5em 0.5em 0em;
+    size: 30px 30px;
     background-color: #AD8350;
     border: none;
     color: #0A0908;
