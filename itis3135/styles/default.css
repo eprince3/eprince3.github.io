@@ -169,6 +169,9 @@ button{
     border-radius: 8%;
     transition-duration: 0.4s;
 }
+button:hover{
+    background-color: #EBEBEB;
+}
 .button:hover{
     background-color: #EBEBEB;
 }
@@ -183,3 +186,33 @@ button{
     font-size: 1.15em;
 }
 
+/*Calculator Buttons*/
+.calc button{
+    margin: 0.5em 0.5em 0.5em 0em;
+    background-color: #AD8350;
+    border: none;
+    color: #0A0908;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8%;
+    transition-duration: 0.4s;
+}
+.button{
+    margin: 0.5em 0.5em 0.5em 0em;
+    background-color: #AD8350;
+    border: none;
+    color: #0A0908;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8%;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: #EBEBEB;
+}
