@@ -1,3 +1,8 @@
+//add character to input text
+function addChar(num){
+    document.getElementById("calc_input").append(num);
+}
+
 //Multipy 2 numbers
 function multiply(){
     let n1 = document.getElementById("num1").value;
