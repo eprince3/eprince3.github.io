@@ -212,4 +212,6 @@ button:hover{
 }
 .calc input{
     margin-bottom: 0.5em;
+    border-radius: 8%;
+    padding: 5px 5px;
 }
