@@ -210,3 +210,6 @@ button:hover{
 .calc button:hover{
     background-color: #EBEBEB;
 }
+.calc input{
+    margin-bottom: 0.5em;
+}
