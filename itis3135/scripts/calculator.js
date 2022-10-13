@@ -1,6 +1,6 @@
 //add character to input text
 function addChar(num){
-    document.getElementById("calc_input").innerHTML.addChar(num);
+    document.getElementById("calc_input").innerHTML += num;
 }
 
 //Multipy 2 numbers
