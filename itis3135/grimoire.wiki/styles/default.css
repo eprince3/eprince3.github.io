@@ -1,0 +1,138 @@
+/*Reset CSS margins*/
+*{
+    margin: 0;
+}
+
+/*Color Variables*/
+:root{
+    --body_bg: #040F16;
+    --text_color: #FFFDF7;
+    --main_bg: #092434;
+    --top_nav: #005E7C;
+    --bottom_nav: #005E7C;
+}
+
+/*Header*/
+header{
+    text-align: left;
+    color: var(--text_color);
+    margin: 0;
+}
+header a{
+    text-decoration: none;
+}
+h1{
+    font-size: 2.15em;
+    font-style: normal;
+    letter-spacing: 60%;
+}
+.header_container{
+    display: grid;
+}
+table{
+    width: 93.5%;
+}
+table, th, td{
+    border: 2px solid white;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+td{
+    padding-left: 20px;
+}
+.image_td{
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+/*Nav Menu*/
+header nav ul{
+    list-style-type: none;
+    box-sizing: border-box;
+    background-color: var(--top_nav);
+    border: 2px solid #141414;
+    padding: 0;
+    overflow: hidden;
+    float: center;
+}
+footer nav ul{
+    list-style-type: none;
+    border: 2px solid #141414;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--bottom_nav);
+}
+nav li{
+    float: left;
+    border-right: 2px solid #141414;
+}
+nav li a{
+    display: block;
+    color: #EBEBEB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: #5a475e;
+}
+
+/*Body and contents*/
+body {
+    color: var(--text_color);
+    background-color: var(--body_bg);
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    margin: 50px;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: var(--main_bg);
+}
+main h2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+/*Links*/
+main a:link{
+    text-decoration: none;
+    color: #CEC0D8;
+}
+main a:visited{
+    text-decoration: none;
+    color: #A68DB9;
+}
+
+/*Main*/
+main img{
+    display: block;
+    width: 25%;
+}
+main div{
+    margin-bottom: 40px;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
+footer p a:link{
+    text-decoration: none;
+    color: #CEC0D8;
+}
+footer p a:visited{
+    text-decoration: none;
+    color: #A68DB9;
+}
