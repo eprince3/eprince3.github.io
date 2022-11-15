@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+    <title>
+            Hobby Site
+        </title>
+        <style>
+            body {
+                background-color: #D8D4F2;
+                color: #332E3C;
+            }
+            header{
+                text-align: center;
+            }
+            nav ul{
+                list-style-type: none;
+                background-color: #A29587;
+                border: 2px solid #332E3C;
+                margin: 25px 50px;
+                padding: 15px;
+            }
+            nav ul li{
+                text-align: center;
+                display: inline;
+                color: #332E3C;
+                font-size: 1.5em;
+            }
+            nav ul li a{
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            h1{
+                font-size: 2.15em;
+                font-style: normal;
+                letter-spacing: 0.6em;
+            }
+            main{
+                border: 2px solid #332E3C;
+                margin: 25px 50px;
+                background-color: #C4B2BC;
+            }
+            h2{
+                text-align: center;
+                font-size: 1.7em;
+            }
+            figure{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            main img{
+                border: 1px solid black;
+            }
+            p{
+                margin: 0px 50px;
+                padding: 25px 0px;
+                font-size: 1.2em
+            }
+            footer{
+                text-align: center;
+            }
+            footer a{
+                text-decoration: none;
+            }
+            footer image{
+                text-decoration: none;
+            }
+        </style>
+        <script>
+            function displayNewPage(target){
+                //collect all pages and make invisible, then make target page visible
+                const collection = document.getElementsByClassName('pages');
+
+                for (let i = 0; i < collection.length; i++) {
+                    collection[i].style.display = "none";
+                }
+
+                document.getElementById(target).style.display = "block";
+                return false;
+            }
+        </script>
+</head>
+<body onload = "displayNewPage('home')">
+    <header>
+        <h1>Snowboarding is Pretty Cool</h1>
+        <nav>
+            <ul>
+                <li><a href = "#" onclick = "displayNewPage('home')">Home</a></li>
+                <li><a href = "#" onclick = "displayNewPage('about')">About Me</a></li>
+                <li><a href = "#" onclick = "displayNewPage('sched')">Scheduling</a></li>
+                <li><a href = "#" onclick = "displayNewPage('loc')">Locations</a></li>
+                <li><a href = "#" onclick = "displayNewPage('why')">Why?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class = "pages" id = "home">
+            <h2>HOME</h2>
+            <figure>
+                <img src = "images/pexels-visit-almaty-848681.jpg">
+                <figcaption>Happy Snowboarder</figcaption>
+            </figure>
+            <p>Snowboarding is a recreational and competitive activity that involves descending a snow-covered surface while standing on a snowboard that is almost always attached to a rider's feet. It features in the Winter Olympic Games and Winter Paralympic Games.</p>
+            <p>Since snowboarding's inception as an established winter sport, it has developed various styles, each with its own specialized equipment and technique. The most common styles today are: freeride, freestyle, and freecarve/race. These styles are used for both recreational and professional snowboarding. While each style is unique, there is overlap between them.</p>
+        </section>
+        <section class = "pages" id = "about">
+            <h2>ABOUT</h2>
+            <figure>
+                <img src = "images/image_of_self_1.jpg">
+                <figcaption>Me</figcaption>
+            </figure>
+            <p>I've been snowboarding for 3 years now. I began as a skier, but when I joined the Ski and Snowboard club at UNCC nearly everyone was a snowboarder so I had some people teaching me how. After that I transitioned fully.</p>
+            <p>Although I broke my collarbone while snowboarding earlier this year, I'm still a big advocate for getting out there on the mountain. At the time I'm writing this, the mountains here just opened up for the season, and I'm about to get back out there for the first time since my break.</p>
+        </section>
+        <section class = "pages" id = "sched">
+            <h2>SCHEDULING</h2>
+            <figure>
+                <img src = "images/pexels-jess-bailey-designs-1558691.jpg">
+                <figcaption>Calendar</figcaption>
+            </figure>
+            <p>College students don't have a lot of free time or extra money. Because of this, snowboarding is a difficult activity to pick up during your studies. However, there are ways to mitigate the cost and time requirement.</p>
+            <p>My personal recommendation is to find a local club to join. Here at UNCC, we have the Ski and Snowboard club (of which I am VP), and joining up can bring you into a group with lots of knowledge about the best times to get out, price drops on equipment, and general information about the sport. It also allows members to split the cost for lodging across all of the others we bring on our trips.</p>
+        </section>
+        <section class = "pages" id = "loc">
+            <h2>LOCATIONS</h2>
+            <figure>
+                <img src = "images/pexels-mark-stebnicki-9407524_1.jpg">
+                <figcaption>North Carolina Flag</figcaption>
+            </figure>
+            <p>North Carolina isn't the best place in the US for snowboarding, but we do have a couple good mountains. The 3 main ones are up near Boone: Sugar Mountain, Beech Mountain, and App Mountain.</p>
+            <p>My personal favorite is Sugar. Sugar and Beech are both good for riders looking for longer trails and shorter lift lines, so you can spend more time out on the slopes and less time waiting in line. App tends to have really long lift lines, since it is a smaller mountain, but is popular in the "park" community. Park riding is using objects to perform tricks, such as rails, boxes, ramps, etc..</p>
+        </section>
+        <section class = "pages" id = "why">
+            <h2>WHY SHOULD I DO THIS?</h2>
+            <figure>
+                <img src = "images/pexels-anna-shvets-4316723.jpg">
+                <figcaption>Confused Person / You before reading this.</figcaption>
+            </figure>
+            <p>First, just like many sports, it is a really good workout. You are using every muscle in your legs, and many in your upper body as well. Major muscles are doing the work of pushing against the ground, while your balancing muscles are also working to keep you upright and stable.</p>
+            <p>Second, it's really fun. It's similar to skateboarding, except you can (generally) go much faster with less risk. If you fall on a skateboard, you eat asphalt, while falling off a snowboard (usually) just gets you a little cold. Even if you're not a speed freak, riding slowly down the mountain is very relaxing. Once you find your balance and stability, it almsot feels like yoga.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Designed by: <a href = "./platypuscorp.com/">Platypus Corp</a> ©2022</p><br>
+        <!-- VALIDATION -->
+        <a href="https://validator.w3.org/check?uri=referer" id = "validation_link_html">
+        <img src="images/button_validation_html.png" width="88" height="31" alt="Validate webpage HTML." />
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" id = "validation_link_css">
+        <img src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage CSS." />
+        </a>
+
+        <script>
+            document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+            document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+    </footer>
+</body>
