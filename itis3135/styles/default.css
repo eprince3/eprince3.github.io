@@ -76,13 +76,22 @@ nav li a:hover, .dropdown:hover{
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: inherit;
+    background-color: #575A4B;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 .dropdown:hover .dropdown-content{
     display: block;
+}
+.dropdown-content a{
+    float: none;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #6C6F5D;
 }
 
 /*Body and contents*/
