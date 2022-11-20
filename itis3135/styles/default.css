@@ -48,11 +48,11 @@ footer nav ul{
     overflow: hidden;
     background-color: #35273F;
 }
-nav li{
+nav li, .dropdown{
     float: left;
     border-right: 2px solid #141414;
 }
-nav li a{
+nav li a, .nav_el{
     display: block;
     color: #EBEBEB;
     text-align: center;
@@ -61,16 +61,6 @@ nav li a{
 }
 nav li a:hover, .dropdown:hover{
     background-color: #5a475e;
-}
-.dropdown{
-    border-radius: none;
-    text-decoration: none;
-    outline: none;
-    color: #EBEBEB;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
 }
 .dropdown-content{
     display: none;
