@@ -48,6 +48,10 @@ td{
     width: 150px;
     height: 150px;
 }
+.image_td img{
+    border: 2px solid var(--body_bg);
+    border-radius: 10px;
+}
 
 /*Nav Menu*/
 header nav ul{
@@ -108,7 +112,7 @@ main h2{
     border-radius: 10px;
 }
 .content-div p{
-    margin: 10px;
+    margin: 20px;
 }
 
 /*Links*/
