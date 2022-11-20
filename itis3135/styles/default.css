@@ -59,15 +59,12 @@ nav li a{
     padding: 14px 16px;
     text-decoration: none;
 }
-nav li a:hover, .dropdown:hover .dropbtn{
+nav li a:hover, .dropdown:hover{
     background-color: #5a475e;
 }
 .dropdown{
-    float: left;
-    overflow: hidden;
-}
-.dropdown .dropbtn{
-    border: none;
+    border-radius: none;
+    text-decoration: none;
     outline: none;
     color: #EBEBEB;
     padding: 14px 16px;
