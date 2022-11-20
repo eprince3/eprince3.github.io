@@ -107,6 +107,9 @@ main h2{
     border: 2px solid var(--bottom_nav);
     border-radius: 10px;
 }
+.content-div p{
+    margin: 10px;
+}
 
 /*Links*/
 main a:link{
