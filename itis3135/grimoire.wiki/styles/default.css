@@ -22,9 +22,9 @@ header a{
     text-decoration: none;
 }
 h1{
-    font-size: 2.15em;
+    font-size: 2.30em;
     font-style: normal;
-    letter-spacing: 60%;
+    letter-spacing: 65%;
 }
 .header_container{
     display: grid;
@@ -41,7 +41,7 @@ table, th, td{
     margin-bottom: 20px;
 }
 td{
-    padding-left: 20px;
+    padding-left: 30px;
 }
 .image_td{
     padding: 0px;
@@ -113,6 +113,14 @@ main h2{
 }
 .content-div p{
     margin: 20px;
+}
+.cont_img{
+    display: inline-block;
+    margin: 10px;
+}
+.post_img_cont{
+    display: inline-block;
+    margin: 10px;
 }
 
 /*Links*/
