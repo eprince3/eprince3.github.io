@@ -33,7 +33,9 @@ table{
     width: 93.5%;
 }
 table, th, td{
+    /* Visual reference for table positioning
     border: 2px solid white;
+    */
     margin-top: 50px;
     margin-left: 50px;
     margin-bottom: 20px;
