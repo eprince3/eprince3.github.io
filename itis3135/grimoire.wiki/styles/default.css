@@ -101,6 +101,10 @@ main h2{
     padding-bottom: 40px;
     font-weight: bold;
 }
+.content-div{
+    border: 2px solid var(--bottom_nav);
+    border-radius: 10px;
+}
 
 /*Links*/
 main a:link{
