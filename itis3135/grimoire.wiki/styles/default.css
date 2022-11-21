@@ -120,6 +120,7 @@ hr.solid{
     border: 2px solid var(--bottom_nav);
     border-radius: 10px;
     display: block;
+    margin-bottom: 20px;
 }
 /*
 .content-div p{
