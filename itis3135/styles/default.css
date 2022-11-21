@@ -93,6 +93,10 @@ nav li a:hover, .dropdown:hover{
 .dropdown-content a:hover{
     background-color: #6C6F5D;
 }
+.non_nav_dropdown{
+    position: relative;
+    display: inline-block;
+}
 
 /*Body and contents*/
 body {
@@ -180,7 +184,8 @@ tr:nth-child(odd){
 button{
     margin: 0.5em 0.5em 0.5em 0em;
     background-color: #AD8350;
-    border: none;
+    border: 2px solid black;
+    border-radius: 5px;
     color: #0A0908;
     padding: 5px 8px;
     text-align: center;
