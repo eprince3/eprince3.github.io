@@ -118,6 +118,7 @@ hr.solid{
 .content-div{
     border: 2px solid var(--bottom_nav);
     border-radius: 10px;
+    margin-top: 20px;
 }
 .content-div p{
     margin: 20px;
