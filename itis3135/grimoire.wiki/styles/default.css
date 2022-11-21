@@ -116,6 +116,8 @@ main img{
     margin-bottom: 10px;
     border: 1px solid var(--bottom_nav);
     border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
 }
 hr.solid{
     border-top: 3px solid var(--bottom_nav);
