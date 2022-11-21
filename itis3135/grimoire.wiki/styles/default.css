@@ -120,9 +120,11 @@ hr.solid{
     border: 2px solid var(--bottom_nav);
     border-radius: 10px;
 }
+/*
 .content-div p{
-    /*margin: 20px;*/
+    margin: 20px;
 }
+*/
 .cont_img{
     display: inline-block;
     margin: 10px 10px 0px;
