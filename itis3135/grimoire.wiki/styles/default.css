@@ -112,9 +112,8 @@ main h2{
     padding-bottom: 40px;
     font-weight: bold;
 }
-hr.rounded{
-    border-top: 6px solid var(--bottom_nav);
-    border-radius: 5px;
+hr.solid{
+    border-top: 3px solid var(--bottom_nav);
 }
 .content-div{
     border: 2px solid var(--bottom_nav);
