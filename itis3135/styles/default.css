@@ -196,8 +196,10 @@ button{
     transition-duration: 0.4s;
 }
 .button{
-    margin: 0.5em 0.5em 0.5em 0em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
     background-color: #AD8350;
+    border: 2px solid black;
+    border-radius: 5px;
     border: none;
     color: #0A0908;
     padding: 5px 8px;
