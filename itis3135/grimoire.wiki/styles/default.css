@@ -105,12 +105,16 @@ main{
     background-color: var(--main_bg);
 }
 main h2{
-    text-align: center;
+    text-align: left;
     font-family: 'Playfair Display', serif;
     font-size: 1.8em;
     padding-top: 20px;
     padding-bottom: 40px;
     font-weight: bold;
+}
+hr.rounded{
+    border-top: 6px solid var(--bottom_nav);
+    border-radius: 5px;
 }
 .content-div{
     border: 2px solid var(--bottom_nav);
