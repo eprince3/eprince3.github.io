@@ -112,6 +112,11 @@ main h2{
     padding-bottom: 20px;
     font-weight: bold;
 }
+main img{
+    margin-bottom: 10px;
+    border: 1px solid var(--bottom_nav);
+    border-radius: 10px;
+}
 hr.solid{
     border-top: 3px solid var(--bottom_nav);
     margin-bottom: 50px;
