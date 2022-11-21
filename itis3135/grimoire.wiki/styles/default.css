@@ -119,6 +119,7 @@ hr.solid{
 .content-div{
     border: 2px solid var(--bottom_nav);
     border-radius: 10px;
+    display: block;
 }
 /*
 .content-div p{
