@@ -12,6 +12,11 @@
     --bottom_nav: #005E7C;
 }
 
+/*Class for border checking*/
+.border_check{
+    border: 2px solid white;
+}
+
 /*Header*/
 header{
     text-align: left;
