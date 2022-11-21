@@ -128,11 +128,11 @@ hr.solid{
 }
 */
 .cont_img{
-    display: inline-block;
+    display: inline;
     margin: 10px 10px 0px;
 }
 .post_img_cont{
-    display: inline-block;
+    display: inline;
     margin: 10px;
     text-align: left;
 }
