@@ -129,12 +129,15 @@ hr.solid{
 */
 .cont_img{
     border: 2px solid white;
-    display: inline-block;
+    /*display: inline-block;*/
+    float: left;
     margin: 10px 10px 0px;
+    width: fit-content;
 }
 .post_img_cont{
     border: 2px solid white;
-    display: inline-block;
+    /*display: inline-block;*/
+    float: left;
     margin: 10px;
     text-align: left;
 }
