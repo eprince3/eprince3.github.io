@@ -121,25 +121,7 @@ hr.solid{
     border-radius: 10px;
     display: block;
     margin-bottom: 20px;
-}
-/*
-.content-div p{
-    margin: 20px;
-}
-*/
-.cont_img{
-    border: 2px solid white;
-    /*display: inline-block;*/
-    float: left;
-    width: 20%;
-    margin: 10px 10px 0px;
-}
-.post_img_cont{
-    border: 2px solid white;
-    /*display: inline-block;*/
-    float: left;
-    margin: 10px;
-    text-align: left;
+    padding: 15px;
 }
 
 /*Links*/
