@@ -114,14 +114,14 @@ main h2{
 }
 hr.solid{
     border-top: 3px solid var(--bottom_nav);
+    margin-bottom: 50px;
 }
 .content-div{
     border: 2px solid var(--bottom_nav);
     border-radius: 10px;
-    margin-top: 20px;
 }
 .content-div p{
-    margin: 20px;
+    /*margin: 20px;*/
 }
 .cont_img{
     display: inline-block;
