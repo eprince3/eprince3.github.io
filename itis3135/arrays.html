@@ -12,16 +12,18 @@
             <h2>
                 ARRAYS
             </h2>
+            <div class="dropdown">
+                <div class="dropbtn" id="selector">Employees &#9660</div>
+                <div class="dropdown-content">
+                    <a href="#" onclick="selectEmp('Iris Jackson');">Iris Jackson</a>
+                    <a href="#" onclick="selectEmp('Khalil Roberts');">Khalil Roberts</a>
+                    <a href="#" onclick="selectEmp('Thomas Berry');">Thomas Berry</a>
+                </div>
+            </div>
             <div>
                 <button onclick="addSalary();">Add Salary</button>
                 <button onclick="displayResults();">Display Results</button>
                 <button onclick="displaySalary();">Display Salary</button>
-            </div>
-            <div class="dropdown">
-                <div class="button">Employees</div>
-                <div class="dropdown-content">
-                    <a href="#">person 1</a>
-                </div>
             </div>
             <div id="results">
                 <h2>RESULTS</h2>

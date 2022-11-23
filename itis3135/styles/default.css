@@ -59,7 +59,7 @@ footer nav ul{
     overflow: hidden;
     background-color: var(--bottom_nav);
 }
-nav li, .dropdown{
+nav li, .navdrop{
     float: left;
     border-right: 2px solid var(--page_dark);
 }
@@ -70,8 +70,19 @@ nav li a, .nav_el{
     padding: 14px 16px;
     text-decoration: none;
 }
-nav li a:hover, .dropdown:hover{
+nav li a:hover, .navdrop:hover{
     background-color: var(--nav_hover);
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin: none;
+    padding: none;
+}
+.dropbtn{
+    padding: 10px;
+    background-color: #6C6F5D;
+    color: var(--page_dark);
 }
 .dropdown-content{
     display: none;
@@ -81,7 +92,7 @@ nav li a:hover, .dropdown:hover{
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-.dropdown:hover .dropdown-content{
+.navdrop:hover .dropdown-content, .dropdown:hover .dropdown-content{
     display: block;
 }
 .dropdown-content a{
@@ -92,10 +103,6 @@ nav li a:hover, .dropdown:hover{
 }
 .dropdown-content a:hover{
     background-color: #6C6F5D;
-}
-.non_nav_dropdown{
-    position: relative;
-    display: inline-block;
 }
 
 /*Body and contents*/
