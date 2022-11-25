@@ -5,22 +5,6 @@ function selectEmp(empName){
     document.getElementById("selector").innerHTML = empName;
 }
 
-function loadDropDown(){
-    //clear dropdown
-    for (i = 0; i < person.length; i++){
-        document.getElementById('dropdown-content').removeChild(0);
-    }
-
-    for (i = 0; i < person.length; i++){
-        const currPerson = document.createElement("p");
-        const node = document.createTextNode(person[i]);
-        currPerson.appendChild(node);
-
-        const dropDownNode = document.getElementById('dropdown-content');
-        dropDownNode.appendChild(currPerson);
-    }
-}
-
 function addSalary(){
     let newPerson = window.prompt("What is the name of the employee you would like to add?", "Iris Jackson");
 
