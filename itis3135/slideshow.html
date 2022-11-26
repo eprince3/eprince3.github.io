@@ -10,14 +10,44 @@
         <div data-include="components/header.html"></div>
         <main>
             <h2>
-                PAGE TITLE
+                Slideshow
             </h2>
-            <p>
-                This is a template file.
-            </p>
+            <div id="slideshow" onclick="changeSlide();">
+                <img class="slides" style="display: block;" src="./images/slideshow/pexels-john-robertnicoud-38242.jpg" alt="img1">
+                <img class="slides" src="./images/slideshow/pexels-oleksandr-pidvalnyi-376697.jpg" alt="img2">
+                <img class="slides" src="./images/slideshow/pexels-pixabay-209817.jpg" alt="img3">
+                <img class="slides" src="./images/slideshow/pexels-visit-almaty-848599.jpg" alt="img4">
+                <img class="slides" src="./images/slideshow/pexels-visit-almaty-848612.jpg" alt="img5">
+            </div>
         </main>
         <div data-include="./components/footer.html"></div>
         <script src="scripts/include.js"></script>
         <script src="scripts/default.js"></script>
+        <script src="scripts/jquery-3.6.1.min.js"></script>
+        <script>
+            //made with assistance from https://www.itgeared.com/create-simple-slideshow-jquery-fading/
+            var container = $('#slideshow');
+            var currentIndex = 0;
+
+            function loadFirst(){
+                container + $('img.slides').eq(currentIndex).fadeIn(0);
+            }
+
+            function changeSlide(){
+                //console.log("pre change current index is " + currentIndex);
+                container + $('img.slides').eq(currentIndex).fadeOut(0);
+
+                //change current index of image
+                if (currentIndex < container.children(".slides").length - 1){
+                    currentIndex++;
+                }
+                else{
+                    currentIndex = 0;
+                }
+                //console.log("post change current index is " + currentIndex);
+
+                container + $('img.slides').eq(currentIndex).fadeIn(10);
+            }
+        </script>
     </body>
 </html>

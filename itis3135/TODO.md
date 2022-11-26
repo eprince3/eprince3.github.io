@@ -5,7 +5,5 @@ Resize img on intro page
 IMPORTANTS:
 Fix polygon JS
 Fix clear button on calculator
-Arrays Assign.
 Grimoire Wiki
-Slideshow
 Activity 10
