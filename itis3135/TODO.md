@@ -6,4 +6,4 @@ IMPORTANTS:
 Fix polygon JS
 Fix clear button on calculator
 Grimoire Wiki
-Activity 10
+Activity 10, 11, 12

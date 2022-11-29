@@ -6,7 +6,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    /*width: 50%;*/
 }
 
 /*Color Variables*/
@@ -129,19 +129,7 @@ main h2{
     font-weight: bold;
     color: #F5F5F5;
 }
-
-/*Links*/
-main a:link{
-    text-decoration: none;
-    color: #CEC0D8;
-}
-main a:visited{
-    text-decoration: none;
-    color: #A68DB9;
-}
-
-/*Main*/
-main img{
+#intro_img{
     display: block;
     width: 25%;
 }
@@ -154,6 +142,16 @@ form label{
 form h3{
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+/*Links*/
+main a:link{
+    text-decoration: none;
+    color: #CEC0D8;
+}
+main a:visited{
+    text-decoration: none;
+    color: #A68DB9;
 }
 
 /*Footer*/
@@ -300,4 +298,24 @@ button:hover{
     margin: none;
     width: inherit;
     height: inherit;
+}
+
+/*Activity 10*/
+#image_list{
+    padding: 0;
+}
+#image_list li{
+    margin: 0;
+    text-decoration: none;
+    padding-right: 10px;
+    display: inline-block;
+}
+#display_img{
+    max-width: 600%;
+    max-height: 400px;
+    object-fit: cover;
+}
+#image_list li img{
+    max-width: 100px;
+    max-height: 70px;
 }
