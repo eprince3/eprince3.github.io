@@ -61,14 +61,8 @@ const polygons = ["Henagon", "Digon", "Trigon", "Tetragon",
 //Figure out polygon name
 function getShape(){
     let sides = -1
-
-    //loop until data is valid
-    while(validateEntry(sides) == false){
-        sides = parseFloat(prompt("The Eclectic Platypus is curious how many sides your shape has.", "5"));
-        sides = Math.round(Math.abs(sides));
-    }
-
-    alert('test');
+    sides = parseInt(prompt("The Eclectic Platypus is curious how many sides your shape has.", "5"));
+    sides = Math.round(Math.abs(sides));
     alert("Your polygon is a " + polygons[sides - 1]);
 }
 
